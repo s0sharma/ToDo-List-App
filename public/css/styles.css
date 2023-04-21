@@ -1,0 +1,103 @@
+html {
+  /* background-color: #E4E9FD; */
+  /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
+  background-color: #FFF5AB;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 370px;
+  margin: 50px auto;
+  background: white;
+  background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/quilt.png"); */
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  /* background-color: #A683E3; */
+  background-color: #867AE9;
+  background-image:none;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  /* text-decoration-color: #867AE9; */
+    /* text-decoration-color: #111  ; */
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  margin-right: 8px;
+  width: 50px;
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: #867AE9;
+  color: #fff;
+  font-size: 35px;
+  padding-bottom: 0;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
